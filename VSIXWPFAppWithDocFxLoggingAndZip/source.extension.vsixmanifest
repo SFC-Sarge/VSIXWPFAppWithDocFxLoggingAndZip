@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="VSIXWPFAppWithDocFxLoggingAndZip.71165e23-89de-466e-8e29-f204763578ab" Version="1.0" Language="en-US" Publisher="Danny McNaught" />
+        <DisplayName>VSIXWPFAppWithDocFxLoggingAndZip</DisplayName>
+        <Description xml:space="preserve">WPF Application .Net 6 With DocFx, Logging And Zip support</Description>
+        <GettingStartedGuide>WPF Custom Templates with Unit Testing User Guide.rtf</GettingStartedGuide>
+        <ReleaseNotes>WPF Custom Templates with Unit Testing User Guide.rtf</ReleaseNotes>
+        <Icon>Tools.ico</Icon>
+        <PreviewImage>Tools.ico</PreviewImage>
+        <Tags>WPF; CSharp</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" TargetVersion="[17.0, 18.0)" d:TargetPath="ProjectTemplates\WPFAppWithDocFxLoggingAndZip.zip" />
+    </Assets>
+</PackageManifest>

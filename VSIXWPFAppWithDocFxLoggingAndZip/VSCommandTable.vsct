@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+  <Include href="VSGlobals.vsct"/>
+
+  <Commands package="VSIXWPFAppWithDocFxLoggingAndZip">
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="VSIXWPFAppWithDocFxLoggingAndZip" value="{2bd87c78-761b-4ca5-a2af-34f86a0c3c27}">
+      
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
