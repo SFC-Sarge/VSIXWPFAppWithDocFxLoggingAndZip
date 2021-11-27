@@ -11,7 +11,7 @@ namespace VSIXWPFAppWithDocFxLoggingAndZip
         public const string Name = "VSIXWPFAppWithDocFxLoggingAndZip";
         public const string Description = @"WPF Application .Net 6 With DocFx, Logging And Zip support";
         public const string Language = "en-US";
-        public const string Version = "1.0";
+        public const string Version = "2.0";
         public const string Author = "Danny McNaught";
         public const string Tags = "WPF; CSharp";
     }
