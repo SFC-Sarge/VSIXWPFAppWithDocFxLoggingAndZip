@@ -1,0 +1,66 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WPFAppWithDocFxLoggingAndZip</Name>
+    <Description>WPF .Net 6 App with Logging, Zip and DocFx Support</Description>
+    <LanguageTag>C#</LanguageTag>
+    <ProjectType>CSharp</ProjectType>
+    <PlatformTag>Windows</PlatformTag>
+    <ProjectTypeTag>Desktop</ProjectTypeTag>
+    <ProjectTypeTag>WPF</ProjectTypeTag>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WPFAppWithDocFxLoggingAndZip</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WPFAppWithDocFxLoggingAndZip.csproj" File="WPFAppWithDocFxLoggingAndZip.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties" />
+      <Folder Name="api" TargetFolderName="api">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".gitignore">.gitignore</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="cover.md">cover.md</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="index.md">index.md</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
+      </Folder>
+      <Folder Name="articles" TargetFolderName="articles">
+        <Folder Name="images" TargetFolderName="images" />
+        <ProjectItem ReplaceParameters="false" TargetFileName="cover.md">cover.md</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="intro.md">intro.md</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName=".gitignore">.gitignore</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CharExtensions.cs">CharExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ControlExtensions.cs">ControlExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DependencyObjectExtensions.cs">DependencyObjectExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="docfx.json">docfx.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EnumExtensions.cs">EnumExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FileLogger.cs">FileLogger.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FileLoggerExtensions.cs">FileLoggerExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FileLoggerProvider.cs">FileLoggerProvider.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ICollectionExtensions.cs">ICollectionExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IEnumerableExtensions.cs">IEnumerableExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="index.md">index.md</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ObservableCollectionExtensions.cs">ObservableCollectionExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SecurityExtensions.cs">SecurityExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StringBuilderExtensions.cs">StringBuilderExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StringExtensions.cs">StringExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="toc.yml">toc.yml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VisualExtensions.cs">VisualExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="wkhtmltoimage.exe">wkhtmltoimage.exe</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="wkhtmltopdf.exe">wkhtmltopdf.exe</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="wkhtmltox.dll">wkhtmltox.dll</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="XDocumentExtensions.cs">XDocumentExtensions.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ZipMethods.cs">ZipMethods.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

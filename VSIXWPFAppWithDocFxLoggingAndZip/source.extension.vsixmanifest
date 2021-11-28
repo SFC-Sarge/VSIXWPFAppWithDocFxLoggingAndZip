@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="VSIXWPFAppWithDocFxLoggingAndZip.71165e23-89de-466e-8e29-f204763578ab" Version="2.0" Language="en-US" Publisher="Danny McNaught" />
+        <Identity Id="VSIXWPFAppWithDocFxLoggingAndZip.71165e23-89de-466e-8e29-f204763578ab" Version="9.0" Language="en-US" Publisher="Danny McNaught" />
         <DisplayName>VSIXWPFAppWithDocFxLoggingAndZip</DisplayName>
-        <Description xml:space="preserve">WPF Application .Net 6 With DocFx, Logging And Zip support</Description>
+        <Description xml:space="preserve">WPF Application .Net 6 With DocFx, Logging And Zip support under Visual Studio 2022.</Description>
         <License>LICENSE</License>
         <GettingStartedGuide>WPF Custom Templates with Unit Testing User Guide.rtf</GettingStartedGuide>
         <ReleaseNotes>WPF Custom Templates with Unit Testing User Guide.rtf</ReleaseNotes>
