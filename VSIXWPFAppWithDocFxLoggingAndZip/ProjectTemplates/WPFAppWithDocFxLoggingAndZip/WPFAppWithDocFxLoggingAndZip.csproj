@@ -10,8 +10,14 @@
 	  <FileVersion>1.0.0.0</FileVersion>
 	  <StartupObject>$safeprojectname$.App</StartupObject>
   </PropertyGroup>
+	<ItemGroup>
+		<ProjectCapability Include="DiagnoseCapabilities" />
+		<ProjectCapability Include="Microsoft.Extensions.Logging" />
+		<ProjectCapability Include="Docfx.Console" />
+		<ProjectCapability Include="System.IO.Compression"/>
+	</ItemGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReConsollease|x64'">
     <DocumentationFile>bin\x64\Release\net6.0-windows\win10-x64\WPFAppWithDocFxLoggingAndZip.xml</DocumentationFile>
     <BuildDocFx>true</BuildDocFx>
   </PropertyGroup>
@@ -32,6 +38,7 @@
 
   <ItemGroup>
     <Folder Include="articles\images\" />
+    <Folder Include="Properties\" />
     <Folder Include="Properties\" />
   </ItemGroup>
 
