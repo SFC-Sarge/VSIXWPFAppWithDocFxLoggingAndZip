@@ -12,7 +12,7 @@ namespace VSIXWPFAppWithDocFxLoggingAndZip
         public const string Description = @"WPF Application .Net 6 With DocFx, Logging And Zip support under Visual Studio 2022. 
 Updated Project Capabilities to include 'Microsoft.Extensions.Logging, DocFx.Console, and System.IO.Compression'";
         public const string Language = "en-US";
-        public const string Version = "17.0";
+        public const string Version = "17.1";
         public const string Author = "Danny McNaught";
         public const string Tags = "WPF; CSharp";
     }

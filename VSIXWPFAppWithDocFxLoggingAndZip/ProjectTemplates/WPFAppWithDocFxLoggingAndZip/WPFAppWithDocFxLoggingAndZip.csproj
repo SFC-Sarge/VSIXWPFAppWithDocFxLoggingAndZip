@@ -18,12 +18,12 @@
 	</ItemGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReConsollease|x64'">
-    <DocumentationFile>bin\x64\Release\net6.0-windows\win10-x64\WPFAppWithDocFxLoggingAndZip.xml</DocumentationFile>
+    <DocumentationFile>bin\x64\Release\net6.0-windows\win10-x64\$safeprojectname$.xml</DocumentationFile>
     <BuildDocFx>true</BuildDocFx>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <DocumentationFile>bin\x64\Debug\net6.0-windows\win10-x64\WPFAppWithDocFxLoggingAndZip.xml</DocumentationFile>
+    <DocumentationFile>bin\x64\Debug\net6.0-windows\win10-x64\$safeprojectname$.xml</DocumentationFile>
     <BuildDocFx>false</BuildDocFx>
   </PropertyGroup>
 
